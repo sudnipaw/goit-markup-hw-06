@@ -725,6 +725,7 @@ button:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter-info {
+  padding-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -738,12 +739,31 @@ button:hover {
   position: absolute;
   width: 570px;
   height: 86px;
-  left: 815px;
-  top: 2751px;
+  margin-left: 805px;
+  margin-top: 75px;
+  margin-right: 225px;
+  margin-bottom: 91px;
+}
+.newsletter-email {
+  height: 50px;
+  width: 358px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(47, 48, 58, 1);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding-left: 16px;
 }
 .newsletter-button {
   width: 200px;
   height: 50px;
+  padding-left: 12px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -754,4 +774,5 @@ button:hover {
   background: #2196f3;
   border-radius: 4px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
