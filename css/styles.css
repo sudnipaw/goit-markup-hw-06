@@ -220,6 +220,10 @@
   border-radius: 100%;
   cursor: pointer;
 }
+.contact-form {
+  position: relative;
+  display: flex;
+}
 .is-hidden {
   transform: scaleX(0);
   opacity: 0;
