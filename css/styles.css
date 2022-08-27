@@ -220,9 +220,28 @@
   border-radius: 100%;
   cursor: pointer;
 }
+.contact-input {
+  box-sizing: border-box;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+.contact-comment {
+  width: 448px;
+  height: 138px;
+}
 .contact-form {
   position: relative;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin-top: 10px;
+  margin-inline: 2.5rem;
+  font-size: 12px;
 }
 .is-hidden {
   transform: scaleX(0);
