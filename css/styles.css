@@ -187,6 +187,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+/* modal box */
 .modal-content {
   position: absolute;
   width: 528px;
@@ -220,6 +221,12 @@
   border-radius: 100%;
   cursor: pointer;
 }
+.is-hidden {
+  transform: scaleX(0);
+  opacity: 0;
+  pointer-events: none;
+}
+/* Contact */
 .contact-label {
   font-family: Roboto;
   font-size: 12px;
@@ -264,11 +271,7 @@
   text-align: center;
   margin-top: 40px;
 }
-.is-hidden {
-  transform: scaleX(0);
-  opacity: 0;
-  pointer-events: none;
-}
+
 button:hover {
   cursor: pointer;
   color: white;
@@ -276,6 +279,7 @@ button:hover {
   transition: color 250ms, background 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* Lorem Ipsum */
 .lorem-ipsum {
   font-family: "Roboto";
   font-style: normal;
