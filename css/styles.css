@@ -249,8 +249,17 @@
   flex-wrap: wrap;
   gap: 28px;
   margin-top: 10px;
-  margin-inline: 2.5rem;
+  margin-inline: 40px;
   font-size: 12px;
+}
+.contact-header {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 40px;
 }
 .is-hidden {
   transform: scaleX(0);
