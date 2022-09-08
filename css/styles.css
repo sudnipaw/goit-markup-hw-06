@@ -663,6 +663,7 @@ button:hover {
   width: 1600px;
   background: #2f303a;
   display: flex;
+  position: relative;
 }
 .footer-list {
   height: 81px;
@@ -792,6 +793,15 @@ button:hover {
   margin-right: 225px;
   margin-bottom: 91px;
 }
+.newsletter-input-portfolio {
+  position: absolute;
+  width: 570px;
+  height: 86px;
+  margin-left: 805px;
+  margin-top: 72px;
+  margin-right: 215px;
+  margin-bottom: 94px;
+}
 .newsletter-email {
   height: 50px;
   width: 358px;
@@ -807,7 +817,6 @@ button:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: rgba(47, 48, 58, 1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  padding-left: 16px;
 }
 .newsletter-button {
   width: 200px;
