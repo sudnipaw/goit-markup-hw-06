@@ -237,6 +237,7 @@
   color: rgba(117, 117, 117, 1);
 }
 .contact-input {
+  position: relative;
   box-sizing: border-box;
   width: 448px;
   height: 40px;
