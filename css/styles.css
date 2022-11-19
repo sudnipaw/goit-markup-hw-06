@@ -266,7 +266,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   gap: 28px;
-  margin-top: 10px;
+
   margin-inline: 40px;
   font-size: 12px;
 }
@@ -645,7 +645,7 @@ button:hover {
   padding-left: 24px;
 }
 .container {
-  width: 1600px;
+  max-width: 1600px;
   height: 80px;
   display: flex;
 }
