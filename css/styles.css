@@ -6,7 +6,10 @@
 .body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
-  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
 }
 /* header */
 .header__logo {
@@ -268,8 +271,8 @@
 .modal-form__icon {
   position: absolute;
   display: block;
-  top: 34;
-  left: 10;
+  top: 34px;
+  left: 10px;
 }
 .modal-form__icon:focus {
   fill: #2196f3;
