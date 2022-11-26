@@ -284,6 +284,14 @@
   color: #2196f3;
   text-decoration: underline;
 }
+.modal-form__box {
+  height: 15px;
+  width: 16px;
+  left: 591px;
+  top: 663px;
+  margin-right: 8px;
+  border-radius: 0px;
+}
 .modal-form__box:hover {
   cursor: pointer;
 }
