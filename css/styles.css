@@ -110,8 +110,7 @@
 .header-contact__icon {
   margin-right: 10px;
 }
-.header-contact__icon:hover {
-}
+
 .header-contact__phone {
   font-family: "Roboto";
   font-style: normal;
@@ -267,6 +266,7 @@
 .modal-form__input:focus {
   outline: none;
   border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 .modal-form__icon {
   position: absolute;
@@ -334,14 +334,15 @@
 }
 
 .contact-comment {
-  width: 448px;
-  height: 138px;
+  max-width: 448px;
+  max-height: 138px;
 }
 
 /* Lorem Ipsum */
 
 .lorem-ipsum {
   margin: 94px 215px 94px 215px;
+  justify-content: center;
 }
 .lorem-ipsum__list {
   list-style: none;
@@ -710,6 +711,7 @@
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.03em;
+  padding-left: 12px;
   text-align: left;
   color: #ffffff;
   border-radius: 4px;
