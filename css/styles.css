@@ -267,9 +267,12 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.modal-form__input:hover + .modal-form__icon {
+.modal-form__input:hover {
   outline: none;
   border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+.modal-form__icon:hover {
   fill: #2196f3;
 }
 .modal-form__icon {
@@ -283,7 +286,6 @@
   align-items: center;
   font-size: 14px;
   color: #2196f3;
-  text-decoration: underline;
 }
 .modal-form__box {
   height: 15px;
@@ -343,8 +345,9 @@
 }
 
 .contact-comment {
-  max-width: 448px;
-  max-height: 138px;
+  width: 448px;
+  height: 138px;
+  resize: none;
 }
 
 /* Lorem Ipsum */
@@ -570,7 +573,7 @@
 
 .footer {
   height: 252px;
-  width: auto;
+  max-width: 1600px;
   background: #2f303a;
   display: flex;
   position: relative;
