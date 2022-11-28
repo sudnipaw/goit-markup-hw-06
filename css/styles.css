@@ -264,7 +264,7 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.modal-form__input + modal-form__icon:focus {
+.modal-form__input:hover + .modal-form__icon {
   outline: none;
   border: 1px solid #2196f3;
   fill: #2196f3;
@@ -274,9 +274,6 @@
   display: block;
   top: 34px;
   left: 10px;
-}
-.modal-form__icon:focus {
-  fill: #2196f3;
 }
 .modal-form__check {
   display: inline-flex;
