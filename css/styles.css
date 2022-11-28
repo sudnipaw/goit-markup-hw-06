@@ -438,7 +438,7 @@
 }
 /* NASZ ZESPÓŁ */
 .team {
-  width: 1600px;
+  width: auto;
   background-color: rgba(245, 244, 250, 1);
 }
 .team__header {
@@ -567,7 +567,7 @@
 
 .footer {
   height: 252px;
-  width: 1600px;
+  width: auto;
   background: #2f303a;
   display: flex;
   position: relative;
