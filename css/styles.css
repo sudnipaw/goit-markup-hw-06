@@ -260,10 +260,11 @@
   height: 40px;
   left: 576px;
   margin-top: 4px;
+  text-indent: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.modal-form__input:focus {
+.modal-form__input + modal-form__icon:focus {
   outline: none;
   border: 1px solid #2196f3;
   fill: #2196f3;
