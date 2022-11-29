@@ -275,19 +275,15 @@
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
-/* .modal-form__input:focus {
-  outline: none;
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-} */
-/* .modal-form__icon:hover {
-  fill: #2196f3;
-} */
+
 .modal-form__icon {
   position: absolute;
   display: block;
-  top: 34px;
-  left: 10px;
+  top: 14px;
+  left: 14px;
+}
+.modal-form__icon:focus {
+  fill: #2196f3;
 }
 .modal-form__check {
   display: inline-flex;
