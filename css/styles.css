@@ -272,6 +272,11 @@
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
+.modal-form__input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
 .modal-form__icon:hover {
   fill: #2196f3;
 }
