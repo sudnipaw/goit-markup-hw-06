@@ -149,20 +149,20 @@
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
 }
 .motto__text {
+  /* max-width: 696px; */
+  margin: 0 auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  display: flex;
+  justify-content: center;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   position: absolute;
   color: #ffffff;
-  /* height: 120px;
-  width: 696px;
-  left: 452px;
-  top: 280px; */
   padding: 200px 452px 280px 452px;
   border-radius: nullpx;
 }
@@ -179,7 +179,7 @@
   width: 200px;
   height: 50px;
   padding: 10px 41px 10px 42px;
-  /* margin: 350px 700px 200px 700px; */
+  margin: 350px 700px 200px 700px;
   border: none;
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -197,8 +197,10 @@
 .modal {
   position: absolute;
   width: 528px;
-
+  margin: 0 auto;
+  /* padding: 221px 536px 536px; */
   margin-left: 536px;
+  margin-right: 536px;
   margin-top: 221px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -267,19 +269,20 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.modal-form__input:hover {
-  outline: none;
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-}
+.modal-form__input:hover,
 .modal-form__input:focus {
   outline: none;
   border: 1px solid #2196f3;
   fill: #2196f3;
 }
-.modal-form__icon:hover {
+/* .modal-form__input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
   fill: #2196f3;
-}
+} */
+/* .modal-form__icon:hover {
+  fill: #2196f3;
+} */
 .modal-form__icon {
   position: absolute;
   display: block;
@@ -295,10 +298,10 @@
 .modal-form__box {
   height: 15px;
   width: 16px;
-  left: 591px;
-  top: 663px;
-  margin-right: 8px;
-  border-radius: 0px;
+  /* left: 591px;
+  top: 663px; */
+  /* margin-right: 8px;
+  border-radius: 0px; */
 }
 .modal-form__box:hover {
   cursor: pointer;
