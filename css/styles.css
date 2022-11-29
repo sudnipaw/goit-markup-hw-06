@@ -461,7 +461,8 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  padding: 94px 695px 50px 695px;
+  /* margin-bottom: 50px; */
 }
 
 .team__list {
@@ -656,8 +657,8 @@
 .footer-socialmedia__header {
   width: 113px;
   height: 16px;
-  left: 531px;
-  top: 2751px;
+  /* left: 531px;
+  top: 2751px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -666,10 +667,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
+  /* padding: 75px 966px 20px 521px; */
+  /* padding-bottom: 20px; */
 }
 .footer-socialmedia__list {
   display: flex;
   gap: 10px;
+  padding-top: 20px;
 }
 .footer-socialmedia__logo {
   list-style: none;
