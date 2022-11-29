@@ -758,6 +758,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
+.footer-newsletter_send {
+  padding: 13px 28px 13px 148px;
+}
 
 /* PORTFOLIO */
 
