@@ -64,6 +64,7 @@
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+  position: relative;
 }
 .navigation__list:hover {
   color: rgba(33, 150, 243, 1);
@@ -101,7 +102,8 @@
   color: #757575;
   text-decoration: none;
 }
-.header-right__mail:hover .header-right__phone:hover {
+.header-right__mail:hover,
+.header-right__phone:hover {
   color: rgba(33, 150, 243, 1);
   fill: #2196f3;
   transition-property: color;
@@ -274,7 +276,8 @@
   top: 30px;
   left: 10px;
 }
-.modal-form__icon:focus {
+.modal-form__input:hover + .modal-form__icon,
+.modal-form__input:focus-within + .modalsvgmodal-form__icon {
   fill: #2196f3;
 }
 .modal-form__check {
@@ -695,10 +698,7 @@ footer {
   margin-right: 225px;
   margin-bottom: 91px; */
 }
-.footer-newsletter__portfolio {
-  width: 570px;
-  height: 86px;
-}
+
 .footer-newsletter__input {
   height: 50px;
   width: 358px;
