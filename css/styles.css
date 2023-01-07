@@ -301,6 +301,21 @@
   height: 1em;
   fill: #fff;
 }
+/* checked */
+.modal-form__policy::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.modal-form__checked:checked + .modal-form__policy::before {
+  background-color: #2196f3;
+  border: none;
+  background-image: url(.images/icons.svg#icon-checked);
+}
+/* checked */
 .modal-form__policy {
   width: 395px;
   height: 24px;
