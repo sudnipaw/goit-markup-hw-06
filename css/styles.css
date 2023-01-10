@@ -289,6 +289,7 @@
 .modal-form__box {
   height: 15px;
   width: 16px;
+  appearance: none;
 }
 .modal-form__box:hover {
   cursor: pointer;
@@ -301,9 +302,9 @@
   height: 1em;
   fill: #fff;
 }
-/* checked */
+/* checked*/
 .modal-form__policy::before {
-  display: inline-block;
+  display: block;
   content: "";
   width: 16px;
   height: 16px;
@@ -315,7 +316,7 @@
   border: none;
   background-image: url(.images/icons.svg#icon-checked);
 }
-/* checked */
+/*checked */
 .modal-form__policy {
   width: 395px;
   height: 24px;
