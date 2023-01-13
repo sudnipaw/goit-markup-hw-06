@@ -281,15 +281,17 @@
   fill: #2196f3;
 }
 .modal-form__check {
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex;
+  align-items: center; */
   font-size: 14px;
   color: #2196f3;
+  position: relative;
 }
 .modal-form__box {
   height: 15px;
   width: 16px;
-  opacity: 0;
+  /* opacity: 0; */
+  appearance: none;
 }
 .modal-form__box:hover {
   cursor: pointer;
@@ -300,7 +302,9 @@
   left: 2px;
   width: 0.9em;
   height: 1em;
-  /* fill: #fff; */
+  fill: #2196f3;
+  z-index: 100;
+  cursor: pointer;
 }
 /* checked*/
 .modal-form__policy::before {
@@ -319,10 +323,10 @@
 }
 /*checked */
 .modal-form__policy {
-  width: 395px;
+  /* width: 395px;
   height: 24px;
   left: 615px;
-  top: 658px;
+  top: 658px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -330,6 +334,12 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
 }
 .modal-form__submit {
   width: 12.5rem;
